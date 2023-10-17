@@ -278,11 +278,20 @@ li{
     color: white;
 }
 .arrow{
-    border: solid black;
+    border: solid white;
     border-width: 0 3px 3px 0;
     padding: 3px;
+    display: inline-block;
 }
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+.arrow.down{
+    margin-left: 5px;
+}
+.icons{
+    display: flex;
+    color: white;
+    gap: 20px;
 }
